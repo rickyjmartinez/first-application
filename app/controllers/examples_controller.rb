@@ -1,4 +1,4 @@
-class FirstController < ApplicationController
+class ExamplesController < ApplicationController
   def welcome
     render json: { message: "hello there, this is my first message" }
   end
